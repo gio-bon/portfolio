@@ -1,3 +1,4 @@
+
 /* CSS Variables */
 
 :root {
@@ -62,6 +63,14 @@
     text-decoration: none;
     color: inherit;
   }
+
+  p {
+    font-size:larger;
+  }
+
+  #foot{
+		font-size: 12px;
+	}
   
   /* Utility Classes */
   
@@ -107,7 +116,7 @@
   
   .header__link {
     position: relative;
-    font-size: 1.125rem;
+    font-size: 1.13rem;
   }
   
   .header__link::after {

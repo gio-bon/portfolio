@@ -27,18 +27,18 @@ module.exports = function (eleventyConfig) {
     };
   };
 
-  module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("./src/css/");
-    eleventyConfig.addWatchTarget("./src/css/");
-    eleventyConfig.addPassthroughCopy("./src/images/");
-    eleventyConfig.addPassthroughCopy({ "./src/favicons": "/" });
-    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-    eleventyConfig.addNunjucksAsyncShortcode("EleventyImage", imageShortcode);
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("./src/css/");
+  eleventyConfig.addWatchTarget("./src/css/");
+  eleventyConfig.addPassthroughCopy("./src/images/");
+  eleventyConfig.addPassthroughCopy({ "./src/favicons": "/" });
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addNunjucksAsyncShortcode("EleventyImage", imageShortcode);
 
-    return {
-      dir: {
-        input: "src",
-        output: "public"
-      }
-    };
+  return {
+    dir: {
+      input: "src",
+      output: "public"
+    }
   };
+};

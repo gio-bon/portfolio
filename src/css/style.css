@@ -4,9 +4,9 @@
     --background: #232324;
     --color-font: #cfcdcd;
     --slate-600: #c4c6c9;
-    --amber-100: #fef3c7;
+    --amber-100: #ebc739;
     --destaque-color: #7e60cf;
-    --amber-800: #92400e;
+    --amber-800: #362d27;
     --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
       0 4px 6px -4px rgb(0 0 0 / 0.1);
   }
@@ -14,7 +14,7 @@
   /* CSS Normalization */
   
   *,
-  *::before,
+  *::before,  
   *::after {
     box-sizing: border-box;
     margin: 0;
@@ -289,17 +289,18 @@
   }
   
   .project-card__title {
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight:bolder;
     color: var(--color-font); 
   }
   
   .project-card__title:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
   }
   
   .project-card__tags {
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
     display: flex;
     gap: 1rem;
@@ -308,8 +309,9 @@
   .project-card__tag {
     display: flex;
     padding: 0.25rem 0.5rem;
-    border-radius: 9999px;
+    border-radius: 5px;
     font-size: 0.75rem;
+    font-weight: bold ;
     background-color: var(--amber-100);
     color: var(--amber-800);
   }
@@ -467,3 +469,129 @@
       margin: 4rem;
     }
   }
+
+/* BULMA FRAMEWORK */
+
+/* PAGINAÇÃO */
+.pagination {
+  font-size: 1rem;
+  padding-top: 10%;
+  margin: -0.25rem;
+}
+
+.pagination.is-small {
+  font-size: 0.75rem;
+}
+
+.pagination.is-medium {
+  font-size: 1.25rem;
+}
+
+.pagination.is-large {
+  font-size: 1.5rem;
+}
+
+.pagination.is-rounded .pagination-previous,
+.pagination.is-rounded .pagination-next {
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 9999px;
+}
+
+.pagination.is-rounded .pagination-link {
+  border-radius: 9999px;
+}
+
+.pagination,
+.pagination-list {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.pagination-previous,
+.pagination-next,
+.pagination-link,
+.pagination-ellipsis {
+  font-size: 1em;
+  justify-content: center;
+  margin: 0.25rem;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: center;
+}
+
+.pagination-previous,
+.pagination-next,
+.pagination-link {
+  border-color: #dbdbdb;
+  color: var(--color-font);
+  min-width: 2.5em;
+}
+
+.pagination-previous:hover,
+.pagination-next:hover,
+.pagination-link:hover {
+  border-color: #b5b5b5;
+  color: var(--destaque-color);
+}
+
+.pagination-previous:focus,
+.pagination-next:focus,
+.pagination-link:focus {
+  border-color: #485fc7;
+}
+
+.pagination-previous:active,
+.pagination-next:active,
+.pagination-link:active {
+  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2);
+}
+
+.pagination-previous[disabled], .pagination-previous.is-disabled,
+.pagination-next[disabled],
+.pagination-next.is-disabled,
+.pagination-link[disabled],
+.pagination-link.is-disabled {
+  background-color: #dbdbdb;
+  border-color: #dbdbdb;
+  box-shadow: none;
+  color: #7a7a7a;
+  opacity: 0.5;
+}
+
+.pagination-previous,
+.pagination-next {
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+}
+
+.pagination-link.is-current {
+  background-color: #485fc7;
+  border-color: #485fc7;
+  color: #fff;
+}
+
+.pagination-ellipsis {
+  color: #b5b5b5;
+  pointer-events: none;
+}
+
+.pagination-list {
+  flex-wrap: wrap;
+}
+
+.pagination-list li {
+  list-style: none;
+}
+/* estiliza link paginação da pagina atual */
+ [aria-current] {  
+  background-color: var(--destaque-color);
+  border-radius: 4px;
+  color: var(--background);
+}
+[aria-current]:hover {
+  color: var(--color-font);
+}

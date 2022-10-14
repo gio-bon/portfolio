@@ -1,11 +1,26 @@
 ---
 title: "Giovani Portfolio"
 layout: "base.njk"
+pagination:
+  data: collections.projects
+  size: 3
+  alias: projects
 ---
-
+{# itera sobre itens de projeto #}
 <h2 class="projects__heading">Projetos recentes</h2>
 <div class="project-list">
-  {% asyncEach project in collections.projects %}
+  {% asyncEach project in projects %}
     {% include "project-card.njk" %}
   {% endeach %}
 </div>
+
+{# mostra a paginação no final da página #}
+<nav class="pagination" aria-labelledby="my-pagination">
+  <ol class="pagination-list">
+    {%- if pagination.pages > 1 %}
+      {%- for pageEntry in pagination.pages %}
+          <li><a class="pagination-link" href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>{{ loop.index }}</a></li>
+      {%- endfor %}
+    {%- endif %}
+  </ol>
+</nav>

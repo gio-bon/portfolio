@@ -5,7 +5,7 @@
     --color-font: #cfcdcd;
     --slate-600: #c4c6c9;
     --amber-100: #fef3c7;
-    --destaque-color: #6542c7;
+    --destaque-color: #7e60cf;
     --amber-800: #92400e;
     --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
       0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -183,7 +183,7 @@
   
   .profile__text--highlight {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: var(--destaque-color);
   }
   
@@ -291,10 +291,11 @@
     margin-bottom: 1rem;
     font-size: 1.25rem;
     font-weight: 600;
+    color: var(--color-font); 
   }
   
   .project-card__title:hover {
-    text-decoration: underline;
+    text-decoration: underline; 
   }
   
   .project-card__tags {
@@ -413,6 +414,7 @@
     max-width: 36rem;
     margin: 4rem auto;
     border-radius: 0.25rem;
+    color: var(--color-font);
   }
   
   .form__section {

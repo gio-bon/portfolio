@@ -7,4 +7,4 @@ public: True
 icon: ⚡
 ---
 
-Inicio meu estágio no [Grupo GFT](https://www.gft.com/br/pt) como desenvolvedor .NET.
+Início do meu estágio no [Grupo GFT](https://www.gft.com/br/pt) como desenvolvedor .NET.

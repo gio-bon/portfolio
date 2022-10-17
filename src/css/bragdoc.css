@@ -55,10 +55,9 @@
   }
   
   .bragdoc__taglist > * {
-    border: 1px solid var(--destaque-color);
-    background: #7e60cf;
-    color: var(--background);
-    padding: 0.25em 0.5em 0.25em 0.5em;
+    border: 1px solid var(--amber-100);
+    color: var(--color-font);
+    padding: 0.5em 0.5em;
     border-radius: 0.5em;
     margin-right: 1em;
   }

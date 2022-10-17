@@ -34,6 +34,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "./src/favicons": "/" });
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
   eleventyConfig.addNunjucksAsyncShortcode("EleventyImage", imageShortcode);
+  eleventyConfig.addFilter("dateDisplay", require("./src/scripts/dates.js") );
+
 
   return {
     dir: {

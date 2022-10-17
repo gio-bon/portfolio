@@ -1,0 +1,21 @@
+---
+title: "Curriculum"
+layout: "base.njk"
+---
+{% block head %}
+<link rel="stylesheet" href="/css/bragdoc.css" />
+{% endblock %}
+
+<body class="corpo">
+<div class="bragdoc__profile">
+    <img class="bragdoc__photo" src="{{ '/images/profile.jpg' | url }}">
+    <h1 class="bragdoc__name">Giovani Bontempo</h1>
+    <div class="role">Desenvolvedor</div>
+</div>
+
+{% for entry in collections.bragdoc | reverse %}
+  {% if entry.data.public %}
+    {% include 'bragdoc-entry.njk' %}
+  {% endif %}
+{% endfor %}
+<body>

@@ -1,0 +1,178 @@
+
+:root{
+    --destaque-color: #7e60cf;
+    --background: #1d1d1d;
+    --color-font: #cfcdcd;
+    --amber-100: #ebc739;
+    --logo: #FFF;
+    --name: #FFF;
+    --entry-title: #dedede;
+    --date: rgba(255,255,255,0.3);
+    --text: #999999;
+    --entry-line: rgba(255,255,255,0.2);
+    --entry-circle: rgba(255,255,255,0.3);
+    --code-text: rgba(255,255,255,0.5);
+    --code-block: rgba(255,255,255,0.1);
+    --link-text: rgba(255,255,255,0.5);
+    --link-hover: orange;
+    --quote-block-edge: rgb(255, 165, 0);
+    --quote-block-text: rgba(255, 165, 0,0.5);
+    --table-border: #999999;
+    --footer: rgba(255,255,255,0.3);
+    --tag: rgba(255,255,255,0.3);
+}
+
+.corpo {
+    color: var(--text);
+    margin: 0;
+    height: 100vh;
+}
+
+.bragdoc__entry {
+    position: relative;
+    width: 80vh;
+    font-size: 12px;
+  }
+  
+  .bragdoc__entry:first-child {
+    margin-top: 0;
+  }
+  
+  .bragdoc__entry:before {
+    height: 100%;
+    position: absolute;
+    background-color: var(--destaque-color);
+    width: 2px;
+    content: "";
+    top: 30px;
+  }
+  
+  .bragdoc__entry:last-child:before {
+    background-color: var(--background);
+  }
+  
+  .bragdoc__taglist {
+    margin-left: 1em;
+    padding-left: 1em;
+  }
+  
+  .bragdoc__taglist > * {
+    border: 1px solid var(--destaque-color);
+    background: #7e60cf;
+    color: var(--background);
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    border-radius: 0.5em;
+    margin-right: 1em;
+  }
+  
+  /* Entry Content */
+  
+  .bragdoc__entry-block {
+    margin-left: 1em;
+    padding: 1em;
+  }
+  
+  .bragdoc__entry-title {
+    margin-top: 4px;
+    color: var(--color-font);
+    font-size: 1.5em;
+  }
+  
+  .bragdoc__entry-date {
+    line-height: 3em;
+    color: var(--text);
+  }
+  
+  /* Bragdoc milestone circle */
+  
+  .bragdoc__entry-milestone {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border: 5px solid var(--destaque-color);
+    background-color: var(--background);
+    left: 0;
+    top: 30px;
+    margin-top: -2px;
+    margin-left: -3px;
+    border-radius: 100px;
+  }
+  
+  /* Bragdoc Entry Content */
+  
+  .bragdoc__entry-content > * {
+    margin-bottom: 0.5em;
+    margin-left: 0;
+  }
+  
+  .bragdoc__entry-content > h1 {
+    font-size: 1.15em;
+  }
+  
+  .bragdoc__entry-content > h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    color: var(--text);
+  }
+
+@media only screen and (max-width: 1400px) {
+
+.bragdoc__container {
+    /* Center the bragdoc*/
+    margin: 0 auto;
+}
+
+.bragdoc__entry-title {
+    font-size: 1.25em;
+}
+}
+
+@media only screen and (max-width: 870px) {
+
+.bragdoc__container {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.bragdoc__entry-title {
+    font-size: 1.15em;
+}
+}
+
+/* Bragdoc User Profile */
+
+.bragdoc__profile {
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+  
+  .bragdoc__photo {
+    width: 6em;
+    border-radius: 8%;
+    height: 6em;
+    object-fit: cover;
+  }
+  
+  .bragdoc__name {
+    color: var(--name);
+    margin-bottom: 0.05em;
+    margin-top: 0.7em;
+    font-size: 24px;
+  }
+  
+  .bragdoc__icon {
+    font-family: "Segoe UI Emoji", Times, serif;
+  }
+  
+  .bragdoc__container {
+    max-width: 800px;
+    margin: 0 0 0 30em;
+    height: 100%;
+  }
+  
+  .bragdoc__profile-role {
+    margin: 0;
+  }
+  
+  .role {
+    font-size: 14px;
+  }

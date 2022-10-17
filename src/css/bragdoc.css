@@ -51,6 +51,7 @@
   .bragdoc__taglist {
     margin-left: 1em;
     padding-left: 1em;
+    font-weight: bolder;
   }
   
   .bragdoc__taglist > * {

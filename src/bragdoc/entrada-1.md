@@ -8,5 +8,3 @@ icon: 💼
 ---
 
 Inicio meu estágio no [Grupo GFT](https://www.gft.com/br/pt) como desenvolvedor .NET.
-
-![](https://ufla.br/images/noticias/2020/10_out/desmatadas-jpg.jpg)

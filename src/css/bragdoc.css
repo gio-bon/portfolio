@@ -25,12 +25,11 @@
 .corpo {
     color: var(--text);
     margin: 0;
-    height: 100vh;
+
 }
 
 .bragdoc__entry {
     position: relative;
-    width: 80vh;
     font-size: 12px;
   }
   

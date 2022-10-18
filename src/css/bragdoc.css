@@ -29,6 +29,7 @@
 .bragdoc__entry {
     position: relative;
     font-size: 12px;
+    max-width: 80vh;
   }
   
   .bragdoc__entry:first-child {
@@ -73,6 +74,7 @@
     margin-top: 4px;
     color: var(--color-font);
     font-size: 1.5em;
+    padding-bottom: 12px;
   }
   
   .bragdoc__entry-date {
@@ -128,9 +130,5 @@
 .bragdoc__container {
     padding-left: 2em;
     padding-right: 2em;
-}
-
-.bragdoc__entry-title {
-    font-size: 1.15em;
 }
 }

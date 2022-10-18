@@ -8,7 +8,7 @@ layout: "base.njk"
 
 <body class="corpo">
 
-{% for entry in collections.bragdoc | reverse %}
+{% for entry in collections.bragdoc %}
   {% if entry.data.public %}
     {% include 'bragdoc-entry.njk' %}
   {% endif %}

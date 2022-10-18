@@ -69,10 +69,6 @@
   p {
     font-size:larger;
   }
-
-  #foot{
-		font-size: 12px;
-	}
   
   /* Utility Classes */
   
@@ -145,6 +141,7 @@
     width: 100%;
     padding: 0.5rem 0;
     text-align: center;
+    font-size: 12px;
   }
 
   .footer p {
@@ -152,11 +149,11 @@
   }
   
   .heading--main {
-    padding: 1rem 0;
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--destaque-color);
     font-family: 'Fira Sans Condensed';
+
   }
   
   /* Profile Styles */
@@ -262,7 +259,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3.5rem;
+    width: 5.5rem;
     height: 100%;
     margin-bottom: 0.5rem;
     gap: 18px;
@@ -643,4 +640,5 @@
   font-size: 46px;
   color: var(--slate-600);
   text-align: left;
+  line-height: 110%
 }

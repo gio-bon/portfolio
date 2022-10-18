@@ -154,6 +154,7 @@
     color: var(--destaque-color);
     font-family: 'Fira Sans Condensed';
     line-height: 110%;
+    margin-bottom: 10px;
   }
   
   /* Profile Styles */

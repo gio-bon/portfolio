@@ -6,14 +6,13 @@ layout: "base.njk"
 <h2 class="heading--main text-center">Quer entrar em contato?</h2>
 <p class="contact__sub-heading text-center">Também pode ser pelo email <code>injuriae@gmail.com</code></p>
 
-<form class="form" name="contact" action="/success" method="POST" data-netlify="true">
-  <div class="form__section">
-    <label class="form__label" for="yourName">Nome</label>
-    <input class="form__input" name="name" type="text" id="yourName" required="true">
-  </div>
+<form
+  action="https://formspree.io/f/mwkznlgq"
+  method="POST"
+  class="form" name="contact" action="/success">
   <div class="form__section">
     <label class="form__label" for="yourEmail">Email</label>
-    <input class="form__input" name="email" type="email"  id="yourEmail" required="true">
+    <input class="form__input" name="email" type="email" name="email" id="yourEmail" required="true">
   </div>
   <div class="form__section">
     <label class="form__label" for="message">Mensagem</label>

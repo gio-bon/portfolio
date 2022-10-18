@@ -1,7 +1,6 @@
 ---
 title: Criando meu segundo cérebro
 date: 2022-06-08
-txtdate: junho de 2022
 categories:   
   - PKM
 summary: "A importância em ter um bom sistema de anotações"

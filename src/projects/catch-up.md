@@ -2,6 +2,7 @@
 title: "Em breve..."
 summary: "Lorem ipsum dolor sit amet. Eos consectetur esse vel voluptatem numquam et repudiandae voluptate eos consequuntur accusamus ad vero rerum."
 image: /images/catch-up.jpg
+date: 2022-06-08
 imageAlt: "Screenshots of catch up app"
 tech:
   - "Next.js"

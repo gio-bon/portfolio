@@ -7,8 +7,6 @@ categories:
 summary: "Ideias sobre como destrinchar uma rota segura (ou quase) para o aprendizado em programação."
 ---
 
-Data: janeiro de 2022
-
 Como atualmente estou em uma transição de carreira (como muitos), a questão de voltar a estudar foi inevitável, principalmente em programação, área que exige um aprendizado quase perpétuo. A diferença da minha época de escola é que hoje você encontra uma abundância de materiais na internet.
 Mas como tudo, sempre há o lado bom e o ruim, e nesse caso, saber avaliar a eficácia dos materiais disponível é um requisito crítico.
 

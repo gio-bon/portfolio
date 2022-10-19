@@ -18,6 +18,10 @@ async function imageShortcode(src, alt, sizes) {
   return Image.generateHTML(metadata, imageAttributes);
 }
 
+  /* acima otimiza imagens para carregamento rápido*/
+  
+  /* abaixo configs padrão */
+
 module.exports = function (eleventyConfig) {
     return {
       dir: {

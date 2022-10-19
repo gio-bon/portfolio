@@ -260,7 +260,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5.5rem;
+    width: 3.5rem; /* pra quando aumentar ou diminuir qtds de icones no footer */
     height: 100%;
     margin-bottom: 0.5rem;
     gap: 18px;

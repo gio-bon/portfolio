@@ -17,14 +17,5 @@ module.exports = function(date, part) {
       "Novembro",
       "Dezembro"
     ];
-    var ordinal = {
-      1 : "st",
-      2 : "nd",
-      3 : "rd",
-      21 : "st",
-      22 : "nd",
-      23 : "rd",
-      31 : "st"
-    };
     return [d.getDate()] + " de " + month[d.getMonth()] + " " +d.getUTCFullYear();
   }

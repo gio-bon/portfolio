@@ -3,6 +3,7 @@
 ## Recursos para a construção
 - https://www.freecodecamp.org/news/learn-eleventy/
 - https://css-tricks.com/creating-your-own-bragdoc-with-eleventy/
+- inserir videos https://github.com/clappr/clappr
 
 - `npm start` roda
 - `npm run build`

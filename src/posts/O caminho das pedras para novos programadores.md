@@ -1,8 +1,6 @@
 ---
 title: O caminho das pedras para novos programadores
 date: 2022-01-13
-categories:   
-  - DEV
 summary: "Ideias sobre como destrinchar uma rota segura (ou quase) para o aprendizado em programação."
 ---
 

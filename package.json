@@ -1,7 +1,7 @@
 {
   "name": "eleventy-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/d02c2843-3f9c-483d-864a-ad1e04cb34eb/deploy-status)](https://app.netlify.com/sites/dainty-licorice-fd9007/deploys)",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -19,5 +19,13 @@
     "markdown-it-block-embed": "^0.0.3",
     "markdown-it-link-attributes": "^4.0.1",
     "markdown-it-video": "^0.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gio-bon/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gio-bon/portfolio/issues"
+  },
+  "homepage": "https://github.com/gio-bon/portfolio#readme"
 }

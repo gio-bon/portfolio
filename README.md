@@ -5,5 +5,8 @@
 - https://css-tricks.com/creating-your-own-bragdoc-with-eleventy/
 - inserir videos https://github.com/clappr/clappr
 
+- `npm install --save-dev @11ty/eleventy`
+- `npm i @11ty/eleventy-img`
+
 - `npm start` roda
 - `npm run build`

@@ -1,27 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
 
+/* CSS Variables */
+
 :root {
-    --background: #2e3440;
-    --background2: #2e3440;
-    --background3: #434c5e;
-    --background4: #4c566a;
-    --color-font: #d8dee9;
-    --destaque-color: #eceff4; /* títulos */
-
-    --yellow-nord: #ebcb8b;
-    --red-nord: #bf616a ;
-    --orange-nord: #d08770;
-    --green-nord: #a3be8c;
-    --violet-nord: #b48ead;
-
-    --frost-blue: #5e81ac;
-    --frost-grey: #81a1c1;
-    --frost-acqua: #88c0d0;
-    --frost-green: #8fbcbb;
-
-    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.3),
-      0 4px 6px -4px rgb(0 0 0 / 0.3);
+    --background: #1d1d1d;
+    --color-font: #cfcdcd;
+    --slate-600: #c4c6c9;
+    --amber-100: #ebc739;
+    --destaque-color: #7e60cf;
+    --amber-800: #362d27;
+    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+      0 4px 6px -4px rgb(0 0 0 / 0.1);
   }
   
   /* CSS Normalization */
@@ -198,7 +188,7 @@
   
   .profile__text {
     margin-bottom: 1rem;
-    color: var(--color-font);
+    color: var(--slate-600);
   }
   
   .profile__text--lead {
@@ -218,7 +208,6 @@
   }
   
   .profile__link {
-    color: var(--orange-nord);
     font-weight: bold;
     text-decoration: underline;
   }
@@ -279,7 +268,7 @@
   
   .technologies__title {
     font-weight: 400;
-    color: var(--color-font);
+    color: var(--slate-600);
   }
   
   /* Project Styles */
@@ -313,19 +302,12 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
   }
-
-  .post-card {
-    overflow: hidden;
-    line-height: 160%;
-    background: var(--background);
-  }
   
   .project-card {
     box-shadow: var(--box-shadow);
     border-radius: 0.375rem;
     overflow: hidden;
     line-height: 160%;
-    background: var(--background);
   }
   
   .project-card__image-wrapper img {
@@ -346,9 +328,9 @@
   
   .project-card__title {
     margin-bottom: 0.6rem;
-    font-size:x-large;
+    font-size: 1.25rem;
     font-weight:bolder;
-    color: var(--red-nord); 
+    color: var(--color-font); 
   }
   
   .project-card__title:hover {
@@ -364,24 +346,24 @@
   
   .project-card__tag {
     display: flex;
-    padding: 0.05rem 0.5rem;
+    padding: 0.25rem 0.5rem;
     border-radius: 5px;
     font-size: 0.75rem;
     font-weight: bold ;
-    background-color: var(--yellow-nord);
-    color: var(--background);
+    background-color: var(--amber-100);
+    color: var(--amber-800);
   }
   
   .project-card__summary {
     margin-bottom: 1rem;
-    color: var(--color-font);
+    color: var(--slate-600);
   }
   
   .project-card__link {
     display: inline-flex;
     align-items: center;
     font-weight: 600;
-    color: var(--orange-nord);
+    color: var(--destaque-color);
   }
   
   .project-card__link-icon {
@@ -422,7 +404,7 @@
   
   .prose {
     font-size: 1.125rem;
-    color: var(--color-font);
+    color: var(--slate-600);
   }
   
   .prose h3 {
@@ -448,7 +430,7 @@
     top: 0.6875em;
     left: 0.25em;
     border-radius: 50%;
-    background-color: var(--color-font);
+    background-color: var(--slate-600);
   }
   
   .prose p {
@@ -466,7 +448,7 @@
   
   .contact__sub-heading {
     padding: 0 1rem;
-    color: var(--color-font);
+    color: var(--slate-600);
   }
   
   .form {
@@ -493,7 +475,7 @@
     border: 1px solid var(--color-font);
     border-radius: 0.25rem;
     padding: 0.5rem;
-    color: var(--background);
+    color: var(--destaque-color);
   }
   
   .form__button {
@@ -503,13 +485,13 @@
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
-    color: var(--destaque-color);
-    background-color: var(--red-nord);
+    color: #fff;
+    background-color: var(--destaque-color);
     transition: background-color 0.3s ease;
   }
   
   .form__button:hover {
-    background-color: #834b51;
+    background-color: var(--destaque-color);
   }
   
   @media (min-width: 640px) {
@@ -658,7 +640,7 @@
   font-weight: 900;
   margin-bottom: 1rem;
   font-size: 46px;
-  color: var(--color-font);
+  color: var(--slate-600);
   text-align: left;
   line-height: 110%
 }

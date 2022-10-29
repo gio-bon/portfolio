@@ -1,38 +1,29 @@
 
 :root{
-  --background: #2e3440;
-  --background2: #3b4252;
-  --background3: #434c5e;
-  --background4: #4c566a;
-  --color-font: #d8dee9;
-  --destaque-color: #eceff4; /* títulos */
-
-  --yellow-nord: #ebcb8b;
-  --red-nord: #bf616a ;
-  --orange-nord: #d08770;
-  --green-nord: #a3be8c;
-  --violet-nord: #b48ead;
-
-  --frost-blue: #5e81ac;
-  --frost-grey: #81a1c1;
-  --frost-acqua: #88c0d0;
-  --frost-green: #8fbcbb;
-
-  --entry-line: rgba(255,255,255,0.2);
-  --entry-circle: rgba(255,255,255,0.3);
-  --code-text: rgba(255,255,255,0.5);
-  --code-block: rgba(255,255,255,0.1);
-  --link-text: rgba(255,255,255,0.5);
-  --link-hover: orange;
-  --quote-block-edge: rgb(255, 165, 0);
-  --quote-block-text: rgba(255, 165, 0,0.5);
-  --table-border: #999999;
-  --footer: rgba(255,255,255,0.3);
-  --tag: rgba(255,255,255,0.3);
+    --destaque-color: #7e60cf;
+    --background: #1d1d1d;
+    --color-font: #cfcdcd;
+    --amber-100: #ebc739;
+    --logo: #FFF;
+    --name: #FFF;
+    --entry-title: #dedede;
+    --date: rgba(255,255,255,0.3);
+    --text: #999999;
+    --entry-line: rgba(255,255,255,0.2);
+    --entry-circle: rgba(255,255,255,0.3);
+    --code-text: rgba(255,255,255,0.5);
+    --code-block: rgba(255,255,255,0.1);
+    --link-text: rgba(255,255,255,0.5);
+    --link-hover: orange;
+    --quote-block-edge: rgb(255, 165, 0);
+    --quote-block-text: rgba(255, 165, 0,0.5);
+    --table-border: #999999;
+    --footer: rgba(255,255,255,0.3);
+    --tag: rgba(255,255,255,0.3);
 }
 
 .corpo {
-    color: var(--color-font);
+    color: var(--text);
 }
 
 .bragdoc__entry {
@@ -48,7 +39,7 @@
   .bragdoc__entry:before {
     height: 100%;
     position: absolute;
-    background-color: var(--background4);
+    background-color: var(--destaque-color);
     width: 2px;
     content: "";
     top: 30px;
@@ -65,9 +56,8 @@
   }
   
   .bragdoc__taglist > * {
-    /* border: 1px solid var(--background4); */
-    background: var(--background3);
-    color: var(--destaque-color);
+    border: 1px solid var(--text);
+    color: var(--color-font);
     padding: 0.5em 0.5em;
     border-radius: 0.5em;
     margin-right: 1em;
@@ -82,15 +72,14 @@
   
   .bragdoc__entry-title {
     margin-top: 4px;
-    color: var(--destaque-color);
+    color: var(--color-font);
     font-size: 1.5em;
     padding-bottom: 12px;
   }
   
   .bragdoc__entry-date {
     line-height: 3em;
-    color: var(--red-nord);
-    font-weight: 700;
+    color: var(--text);
   }
   
   /* Bragdoc milestone circle */
@@ -99,7 +88,7 @@
     position: absolute;
     height: 5px;
     width: 5px;
-    border: 5px solid var(--background4);
+    border: 5px solid var(--destaque-color);
     background-color: var(--background);
     left: 0;
     top: 30px;
@@ -121,7 +110,7 @@
   
   .bragdoc__entry-content > h2, h3, h4, h5, h6 {
     font-size: 1em;
-    color: var(--destaque-color);
+    color: var(--text);
   }
 
 @media only screen and (max-width: 1400px) {

@@ -1,27 +1,27 @@
 ---
 title: "Em breve..."
-summary: "Lorem ipsum dolor sit amet. Eos consectetur esse vel voluptatem numquam et repudiandae voluptate eos consequuntur accusamus ad vero rerum."
+summary: "Em breve será adicionado."
 image: /images/catch-up.jpg
 date: 2022-06-08
 imageAlt: "Screenshots of catch up app"
 tech:
-  - "Next.js"
+  - "Tag"
 siteUrl: "#"
 repoUrl: "#"
 ---
 
-### Problem Solved
+### Problema Resolvido
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
+Descrição
 
-### Technologies Used
+### Tecnologias Usadas
 
-Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Consequat ac felis donec et odio pellentesque diam volutpat commodo.
+Descrição
 
-### Challenges Faced
+### Desafios Enfrentados
 
-Eget mauris pharetra et ultrices. Molestie nunc non blandit massa enim nec. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Nulla at volutpat diam ut venenatis. Volutpat ac tincidunt vitae semper quis lectus nulla at.
+Descrição
 
-### Lessons Learned
+### Lições Aprendidas
 
-Non blandit massa enim nec. Tempor commodo ullamcorper a lacus vestibulum sed. Et netus et malesuada fames ac turpis egestas integer eget. In ante metus dictum at tempor commodo. Eu scelerisque felis imperdiet proin fermentum leo.
+Descrição

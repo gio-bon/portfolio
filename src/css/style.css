@@ -257,6 +257,7 @@
   }
 
   .footer__logo {
+    color: var(--color-font);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -7,6 +7,12 @@ public: True
 icon: ⚡
 ---
 
-Início do meu estágio no [Grupo GFT](https://www.gft.com/br/pt) como desenvolvedor .NET.
+• Treinamento e desenvolvendo de metodologias ágeis (Scrum, Kanban e Desenvolvimento Ágil de Software);
 
-Durante minha experiência no estágio, participei de treinamento prático intensivo de 270h focado em estudos tanto em habilidades técnicas quanto de softskills. Os assuntos abordados foram MVC, REST API, TDD e Micro Services.
+• Desenvolvimento Back-End em C# utilizando o Framework DotNet, integrando o Front-End com HTML, CSS. Sempre desenvolvendo no padrão de arquitetura de software Model-View-Controller (MVC);
+
+• SGBD utilizado: MySQL;
+
+• Versionamento de projetos: Git, GitLab.
+
+Competências: .NET Framework · Desenvolvimento de software · Desenvolvimento de back-end · MySQL · C#
